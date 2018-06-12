@@ -1,9 +1,8 @@
-# Express Example
-
-This repository demonstrates the usage of Sequelize within an [Express](https://expressjs.com) application.
-The implemented logic is a simple task tracking tool.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+## Setup 
+```
+git clone https://github.com/thecloudslayer/pg-node-express.git
+cd pg-node-express
+```
 
 ## Starting App
 
