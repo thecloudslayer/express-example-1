@@ -1,4 +1,4 @@
-## Setup 
+## Setup
 ```
 git clone https://github.com/thecloudslayer/pg-node-express.git
 cd pg-node-express
@@ -35,22 +35,6 @@ In order to understand how this application has been built, you can find the
 executed steps in the following snippet. You should be able to adjust those
 steps according to your needs. Please note that the view and the routes aren't
 described. You can find those files in the repo.
-
-#### Express Setup
-
-First we will create a bare Express App using `express-generator` [Express Generator](https://expressjs.com/en/starter/generator.html)
-```bash
-# install express generator globally
-npm install -g express-generator
-
-# create the sample app
-mkdir express-example
-cd express-example
-express -f
-
-# install all node modules
-npm install
-```
 
 #### Sequelize Setup
 
@@ -156,3 +140,13 @@ function onListening() { /* ... */ }
 
 And finally you have to adjust the `config/config.js` to fit your environment.
 Once thats done, your database configuration is ready!
+
+## pgadmin
+```
+pgadmin will be at 0.0.0.0:5050
+
+user: pgadmin4@pgadmin.org
+password: admin
+
+
+```
