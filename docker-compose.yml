@@ -24,10 +24,5 @@ services:
       ports:
         - "5050:5050"
 
-      environment:
-           DEFAULT_USER: postgres
-           DEFAULT_PASSWORD: postgres
-           MAIL_USERNAME: postgres@postgres.com
-           MAIL_PASSWORD: postgres
       depends_on:
         - web
